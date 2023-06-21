@@ -152,3 +152,14 @@ ul li a:hover {
 #social-links a:hover {
   background: var(--highlight-color);
 }
+
+/* media queries  */
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: var(./assets/bg-desktop-light.jpg);
+  }
+}
