@@ -163,3 +163,23 @@ ul li a:hover {
     --bg-url: var(./assets/bg-desktop-light.jpg);
   }
 }
+
+/* animation */
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
+}
